@@ -1,7 +1,7 @@
 Fitness Coach Chatbot with ChatGPT
 ================================
 
-This project aims to create a chatbot using GPT-3.5 that can help users with their fitness goals like being their personal fitness trainer. The chatbot can provide suggestions related to exercise routines, diet plans, and more based on the users' fitness goals.
+This project aims to create a chatbot using ChatGPT(GPT-3.5-turbo)/ GPT3 (text-davinci-003) API that can help users with their fitness goals like being their personal fitness trainer. The chatbot can provide suggestions related to exercise routines, diet plans, and more based on the users' fitness goals.
 
 Prerequisites
 -------------
@@ -28,11 +28,15 @@ Running the Streamlit App
 
 Run the Streamlit app using the following command:
 
-`streamlit run chatbot.py`
+```sh
+streamlit run chatbot.py
+```
 
 The app should now be running on your localhost.
 
-`localhost:8501`
+```sh
+localhost:8501
+```
 
 Demo Screenshots
 ----------------
