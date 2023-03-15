@@ -13,7 +13,7 @@ Integration
 
 * Install the requirements by:
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 * Once all the requirement libraries are installed, create a file called `apikey.py`
