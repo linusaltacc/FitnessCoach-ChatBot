@@ -45,5 +45,7 @@ Here are some screenshots of the chatbot in action:
 
 ![Screenshot 1](docs/StartingUp.jpeg)
 
-![Screenshot 2](docs/chat_example.jpeg)
+![Screenshot 2](docs/prompt.png)
+
+![Screenshot 3](docs/demo.jpeg)
 

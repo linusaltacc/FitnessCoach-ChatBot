@@ -4,8 +4,8 @@ import requests
 from chatgpt_fitness import *
 from gpt3_fitness import *
 
-st.header("GPT3 Chatbot")
-st.markdown("[Github](https://github.com/linusaltacc/crop-analysis-and-prediction)")
+st.header("Fitness Coach Chatbot")
+st.markdown("[Github](https://github.com/linusaltacc/FitnessCoach-ChatBot-using-ChatGPT)")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
