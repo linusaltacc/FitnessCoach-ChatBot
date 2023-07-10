@@ -1,4 +1,4 @@
-Fitness Coach Chatbot with ChatGPT
+Fitness Coach Chatbot
 ================================
 
 This project aims to create a chatbot using Chat APIs integrating with GPT(GPT-3.5-turbo)/ GPT3 (text-davinci-003)/ VertexAI (chat-bison@001) that can help users with their fitness goals like being their personal fitness trainer. The chatbot can provide suggestions related to exercise routines, diet plans, and more based on the users' fitness goals.
@@ -26,8 +26,8 @@ OpenAI API
 ```sh
 echo "openai_api_key = '<Enter your OpenAI Key here>' " > apikey.py
 ```
-<center>< or ></center>
---
+< or >
+------
 Google Vertex AI API
 ------------------
 
