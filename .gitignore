@@ -2,3 +2,4 @@ apikey.py
 __pycache__/
 .DS_Store
 docs/.DS_Store
+service_account.json

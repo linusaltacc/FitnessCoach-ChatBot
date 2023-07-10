@@ -3,6 +3,7 @@ from streamlit_chat import message
 import requests
 from chatgpt_fitness import *
 from gpt3_fitness import *
+from VertexAI import vertexAI
 
 st.header("Fitness Coach Chatbot")
 st.markdown("[Github](https://github.com/linusaltacc/FitnessCoach-ChatBot-using-ChatGPT)")
@@ -18,14 +19,16 @@ def get_text():
     return input_text 
 
 form = st.form("my_form",clear_on_submit=False)
-p = form.selectbox('Select a Prompt', ("GPT3 (text davinci 003)", "ChatGPT (GPT 3.5 turbo)"))
+p = form.selectbox('Select a Prompt', ("VertexAI (chat-bison@001)","GPT3 (text davinci 003)", "ChatGPT (GPT 3.5 turbo)"))
 submit = form.form_submit_button("Submit")
-prompt = gpt3 #default prompt
+prompt = vertexAI #default prompt
 if submit:
     if p == "GPT3":
         prompt = gpt3
     elif p == "ChatGPT":
         prompt = chatgpt
+    elif p == "Palm":
+        prompt = vertexAI
 
 user_input = get_text()
 if user_input:
